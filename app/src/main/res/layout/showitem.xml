@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City :"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/roomnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room Count :"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Size :"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/rentFee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent fee : "
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Owner's name :"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No : 01XXXXXXXXX"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:layout_margin="5dp"
+        android:textStyle="normal"/>
+
+</LinearLayout>

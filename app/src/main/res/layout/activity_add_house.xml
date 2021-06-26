@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddHouse">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please make sure that all the information are ture and definate"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <EditText
+        android:id="@+id/owneradd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Owner's name"/>
+
+    <EditText
+        android:id="@+id/sizeadd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Apartment Size (square feet)"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/roomnumberadd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Number of room"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/rentFeeAdd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Rent Fee (TK)"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:inputType="textPersonName"
+        android:text="Select District"/>
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAdd"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:id="@+id/addressadd"
+        android:layout_width="250dp"
+        android:inputType="textPostalAddress"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        />
+    <EditText
+        android:id="@+id/phoneNumberAdd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/descriptionadd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Add aditional description"/>
+    <Button
+        android:id="@+id/addButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:onClick="onclickadd"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".signUp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="@android:color/holo_red_light"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/signupemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/holo_purple"
+        android:textColorHint="@android:color/holo_purple"
+
+        android:hint="Enter your email"
+        android:paddingBottom="10dp"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/signuppass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textColorHint="@android:color/holo_purple"
+        android:hint="Enter your password"
+        android:paddingBottom="10dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:onClick="onclicksignUp"
+        android:text="Sign up" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/signupprogress"/>
+
+
+
+</LinearLayout>

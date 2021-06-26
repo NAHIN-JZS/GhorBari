@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Renter">
+        <menu>
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Search" />
+
+        </menu>
+    </item>
+
+    <item android:title="Owner">
+        <menu>
+            <item
+                android:id="@+id/nav_addHouse"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add House" />
+            <item
+                android:id="@+id/nav_showAllHouse"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Show All Houes" />
+        </menu>
+    </item>
+    <item >
+        <menu>
+            <item
+                android:id="@+id/nav_aboutMe"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Me" />
+            <item
+                android:id="@+id/nav_aboutApp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About App" />
+        </menu>
+    </item>
+
+</menu>

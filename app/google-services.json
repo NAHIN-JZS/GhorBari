@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "348474176355",
+    "firebase_url": "https://ghorbari2.firebaseio.com",
+    "project_id": "ghorbari2",
+    "storage_bucket": "ghorbari2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348474176355:android:d919e177b85afb8bd59956",
+        "android_client_info": {
+          "package_name": "com.example.ghorbari2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348474176355-2kiappkg59i7ph7ekd2runhu80t1ucoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ghorbari2",
+            "certificate_hash": "951d984d69e807d1177cfa5b5c65f01cc841d7ee"
+          }
+        },
+        {
+          "client_id": "348474176355-t6h92qi0mfgkj7aint4bfma2m15k9bfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY5gkcEVVfi3Y39c8whN97Y3CH-vSrwL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348474176355-t6h92qi0mfgkj7aint4bfma2m15k9bfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
